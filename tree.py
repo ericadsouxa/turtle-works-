@@ -5,12 +5,12 @@ turtle.bgcolor('black')
 turtle.left(90)
 turtle.speed(0)
 turtle.color('green')
-turtle.pensize(4)
+turtle.pensize(4) #change pensize as per requirement 
 
 
 
 def draw_fractal(blen):
-    sfcolor =["white","blue", "purple","yellow", "green"]
+    sfcolor =["white","blue", "purple","yellow", "green"] #optional to add shades of green for reel tree effect
     turtle.color(random.choice(sfcolor))
 
 
@@ -27,5 +27,5 @@ def draw_fractal(blen):
         turtle.backward(blen)
 
 
-draw_fractal(90)
+draw_fractal(90)  #placing tree graphic in centre
 turtle.done()
