@@ -1,3 +1,6 @@
+#to draw panda cartton figure
+##with turtle graphics 
+###concepts of movement of pen
 
 import turtle
 pen = turtle.Turtle()
