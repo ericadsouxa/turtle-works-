@@ -1,3 +1,10 @@
+#turtle works is amzing graphics 
+#spiral circle 
+#hypnotic effect 
+#black background 
+#-------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------
+
 import turtle
 t = turtle.Turtle()
 turtle.bgcolor("black")
